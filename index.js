@@ -108,8 +108,8 @@ function addItemToCart(storeItem) {
   } else {
     storeItem.quantity = 1
     state.cart.push(storeItem)
+    renderCartItems()
   }
-  renderCartItems()
 }
 
 function removeItemFromCart(storeItem) {
