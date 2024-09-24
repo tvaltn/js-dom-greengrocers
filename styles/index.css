@@ -35,6 +35,29 @@ button {
   text-align: center;
 }
 
+.filter-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.create-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
 .store--item-list {
   display: grid;
   grid-template-columns: repeat(4, 125px);

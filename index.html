@@ -12,6 +12,23 @@
   <body>
     <header id="store">
       <h1>Greengrocers</h1>
+      <div class="filter-btns">
+        <!-- Add buttons to filter in here -->
+      </div>
+      <div class="sort-btns">
+        <!-- Add buttons to sort in here -->
+      </div>
+      <form name="create-item" class="create-item">
+        <label for="name">Name:</label>
+        <input type="text" id="create-item-name" name="name">
+        <label for="price">Price:</label>
+        <input type="text" id="create-item-price" name="price">
+        <label for="type">Type:</label>
+        <input type="text" id="create-item-type" name="type">
+        <label for="imgurl">Img URL:</label>
+        <input type="text" id="create-item-imgurl" name="imgurl">
+        <input id="create-item-button" type="button" value="Submit">
+      </form>
       <ul class="item-list store--item-list">
         <!-- Take a look at store-item.html -->
       </ul>
